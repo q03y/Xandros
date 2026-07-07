@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0 box-border;
+}
+
+body {
+  @apply bg-slate-950 text-white;
+}
+
+.glass {
+  @apply bg-white bg-opacity-10 backdrop-blur-md border border-white border-opacity-20 rounded-xl;
+}
+
+.soft-shadow {
+  @apply shadow-2xl shadow-blue-900/20;
+}
